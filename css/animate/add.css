@@ -1,0 +1,56 @@
+table.blog {border:none;}
+table.blog h3{margin-top:0; padding-top:0;}
+table.blogholiday {border:none; background-color:transparent; color:#fff; margin-top:15px;}
+table.blogholiday p{color:#fff; line-height:24px;}
+table.blogholiday td{ color:#fff; text-align:center; line-height:24px; font-size:13px;}
+table.blogholiday td a{color:#fff; text-decoration:none;}
+table.blogholiday td a:hover{color:#c4ebf8; text-decoration:underline;}
+
+h6.holidaytitle{text-transform:uppercase; color:#fff; font-size:14px; padding:6px 20px; background:#0498cb; margin:0; text-align:center; letter-spacing:.5em;}
+
+.quoteables{ font-style:italic; font-size:26px; line-height:36px; padding:20px 0; margin:10px 0; color:#05B5EF; border-bottom:1px solid #05B5EF; border-top:1px solid #05B5EF; display:block;}
+
+
+.content #snippet-box{width:100%;}
+.content #snippet-box .snippet-title{color:#fff; width:100%; background:#05B5EF; text-transform:uppercase;}
+.content #snippet-box .snippet-image{width:25%;}
+.content #snippet-box .snippet-image img{box-shadow:none; width:96%; margin:7px 0 0 4%;}
+.content #snippet-box .aio-info{width:75%;}
+.content #snippet-box .snippet-label-img{width:25%; font-size:12px; line-height:18px;}
+.content #snippet-box .snippet-data-img{width:70%; font-size:12px; line-height:18px;}
+
+article blockquote.pullquote{
+    background-color: none;
+    padding: 0.3em 4%;	
+}
+article blockquote.pullquote p{
+font-size:2em;
+font-style:italic;
+font-weight:bold;
+line-height:1.5em;
+}
+
+article blockquote.pullquote p span{
+	color:#05B5EF;
+}
+article blockquote.pullquote p span.lg{
+	font-size:2.5em;
+	line-height:.5em;
+	margin:0 4px 0 -4px;
+	padding:0;
+	position:relative;
+	top: 0.25em;
+	}
+.takeaway{background:#ededed;
+border:1px solid #ddd; padding:.75em}
+
+.expanded .landing .widget  .gform_wrapper .gfield_checkbox li label {
+	color: rgb(55, 83, 107) !important;
+	opacity: 1 !important;
+}
+footer.main.has-blue a, footer.main.has-blue p, footer.main.has-blue span {
+	color: #05b5ef !important;
+}
+.postid-7249 .expanded .landing{background-attachment: fixed !important;
+}
+.postid-7249 img{margin-bottom:0 !important;}

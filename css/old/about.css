@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+/*resume*/
+#resume{
+	float:left;
+	padding: 0;
+	margin: 0;
+	width: 65%;
+}
+#testimonials{
+	float:right;
+	margin: 0;
+	padding: 15px 15px 0px 15px;
+	width: 30%;
+  color: #435174;
+  background-color:#f2fbff;
+}
+ul.profilelist li{
+	background: url("../portfolio/img/arrow.png") no-repeat 0px 2px;
+	padding-left:15px;
+	padding-right: 25px;
+	color: #435174;
+}
+.dload{
+	float:left;
+	width: 100%;
+}
+
+
+#testimonials{
+	float:right;
+	margin: 0;
+	padding: 15px 15px 0px 15px;
+	width: 30%;
+  color: #435174;
+  background-color:#f2fbff;
+}
+.resumebody {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing:0.02em;
+	line-height: 1.5em;
+	color: #333;
+	padding-right: 25px;
+	margin-bottom: 30px;
+}
+.resumebody2 {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing:0.02em;
+	line-height: 1.5em;
+	color: #333;
+	padding-right: 25px;
+	margin-bottom: 10px;
+}
+.titles {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	color: #33ccff;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.jobtitles {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: none;
+	color: #000;
+	margin-bottom: 5px;
+	line-height: 1.5em;
+}
+.date {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #435174;
+	margin-bottom: 0;
+}
+.jobposition {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: none;
+	color: #000;
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+.profilelist {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 15px;
+	color: #435174;
+	padding:0 0 0 0;
+	list-style-type: none;
+}
+.quotetext {
+	font-size: 12px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #435174;
+}
+blockquote {
+padding: 10px;
+border-top: 1px dotted #665544;
+border-bottom: 1px dotted #665544;
+}
+.testimonialtext {
+	font-family: "Oxygen", Helvetica, Arial;
+	font-size: .85em;
+	font-style: italic;
+	line-height: 1.5em;
+	font-weight: normal;
+	font-variant: normal;
+	color: #fff;
+	top: 20px;
+}
+.quotes {
+	font-family: "Oxygen", Helvetica, Arial;
+	font-size: 24px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #435174;
+}
+.quoteauthor {
+	font-family: "Oxygen", Helvetica, Arial;
+	font-size: .85em;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #435174;
+	border-bottom: 1px dotted #435174;
+	padding-bottom:10px;
+}
+.port-half1{
+	img: 100%;
+	float: left;
+	width: 50%;
+}
+.port-half2{
+	img: 100%;
+	float: right;
+	width: 50%;
+}
+	
+
+/*fixes*/
+.seconddescription {
+	margin-top: 50px;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  *zoom: 1;
+}
+

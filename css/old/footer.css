@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+.FullSiteBlock-Link:hover,
+.tp-caption.FullSiteBlock-Link:hover {
+    color: #333;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0 none transparent;
+    border-radius: 0 0 0 0;
+    cursor: pointer
+}
+footer .full-footer-section {
+    text-align: center
+}
+
+.FullSiteBlock-FooterLink,
+.tp-caption.FullSiteBlock-FooterLink {
+    color: #555;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: Lato;
+    padding: 0;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0 none transparent;
+    border-radius: 0 0 0 0;
+    text-align: left
+}
+
+.FullSiteBlock-FooterLink:hover,
+.tp-caption.FullSiteBlock-FooterLink:hover {
+    color: #0096ff;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0 none transparent;
+    border-radius: 0 0 0 0;
+    cursor: pointer
+}
+
+

@@ -1,0 +1,153 @@
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+#inspiration {
+	padding-top: 0;
+}
+#inspiration.inline-image img {
+	padding-top: 220px;
+}
+.contact-card {
+	padding: 90px 10%;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+body {
+	font-size: 13px;
+	line-height: 20px;
+}
+h1 {
+	font-size: 34px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	letter-spacing: -1px;
+}
+h2 {
+	font-size: 28px;
+	line-height: 36px;
+	margin-bottom: 18px;
+	letter-spacing: -1px;
+}
+h3 {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 12px;
+}
+section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.inline-image img {
+	max-width: 100%;
+}
+p.lead {
+	font-size: 14px;
+}
+.menu li {
+	margin-right: 24px;
+}
+.menu li a {
+	font-size: 12px;
+}
+.promo {
+	padding: 0 12.5%;
+}
+#subscribe-form {
+	width: 90%;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.container {
+	width: 93.75%;
+}
+.feature {
+	margin-bottom: 60px;
+}
+.feature.last {
+	margin-bottom: 0;
+}
+.text-block {
+	padding: 30px 0;
+}
+#products .text-block {
+	padding-bottom: 0;	
+}
+.menu {
+	display: none;
+}
+#offscreen-toggle-wrap {
+	display: block;
+}
+.space-bottom-large {
+	margin-bottom: 60px !important;
+}
+.background-image-holder {
+	background-position: 55% 50% !important;
+}
+h6 {
+	margin-bottom: 14px;
+}
+#subscribe-form, footer.footer ul.footer-links {
+	margin-bottom: 45px;
+}
+#subscribe-form, footer.footer ul.social-icons {
+	margin-top: 0;
+}
+}
+
+@media only screen and (max-width : 767px) {
+.container {
+	width: 75%;
+}
+#inspiration {
+	padding-top: 60px;
+}
+.promo {
+	padding: 0;
+}
+#inspiration.inline-image img {
+	padding-top: 0;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.masthead {
+	height: auto !important;
+	padding: 120px 0;	
+}
+.container {
+	width: 93.75%;
+}
+.feature .icon-large {
+	margin-bottom: 16px;
+}
+.follow-me {
+	display: none;
+}
+.space-bottom-large {
+	margin-bottom: 30px !important;
+}
+section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.contact-card {
+	padding: 60px 10%;
+}
+#subscribe-form {
+	width: 100%;
+}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 767px) {
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}

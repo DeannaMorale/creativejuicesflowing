@@ -1,0 +1,316 @@
+@charset "UTF-8";
+/* CSS Document */
+.slick-arrow{
+	color:#545455;
+}
+	.feature {
+	display: inline-block;
+	font-size: 48px;
+	margin-bottom: 24px;
+	text-align:center;
+}
+.test {
+	display: inline;
+	font-size: 14px;
+	margin-bottom: 24px;
+	text-align:left;
+}
+#index #client-list {
+  background-color: #000;
+}
+
+.contact-card {
+	position: relative;
+	overflow: hidden;
+	padding: 5%;
+	text-align: center;
+}
+.contact-card .btn {
+	color: #acea06;
+	background: #fff;
+	border-color: #fff;
+}
+.contact-card .btn.cleanpath {
+	color: #acea06;
+}
+.contact-card .btn:hover {
+	color: #fff;
+	background: #cccccc;
+}
+.contact-card .btn.cleanpath:hover {
+	color: #fff;
+	background: #acea06;
+}
+.contact-card .btn:focus {
+	outline: none;
+	background: #fff;
+}
+.bg-light-blue {
+	background-color: #81d4fa;
+}
+.bg-dark-blue {
+	background-color: #01579b;
+}
+.bg-tran {
+	background-color: #000;
+}
+.bg-wte {
+	background-color: #ffffff;
+}
+
+  .g-case-study-mini .details .link {
+    font-size: 10px
+  }
+/*
+
+   Buttons
+-----------------------------------------
+*/
+.btn {
+	font-family: 'font-family: 'Raleway', sans-serif';
+	font-size: 12px;
+	font-weight: 600;
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	line-height: 25px;
+	padding:40px 0px;
+	border-radius: 50%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #acea06;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.btn:hover {
+	background: #d5fb70;
+}
+.btn:focus {
+	outline: none;
+	background: #d5fb70;
+}
+
+ /* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color: #a6eeff;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: #81d4fa;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #a6eeff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #a6eeff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 0px solid #ccc;
+    border-top: none;
+} 
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+
+.g-case-study-mini .details .mdash-bar {
+  border-top-color: #FCD3BC
+}
+
+footer {
+  background-color: #000;
+  padding: 180px 45px
+}
+bottom_margin {
+	margin-bottom: 3px;
+}
+
+
+.g-client-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 60px 0;
+}
+
+.g-client-list img {
+  max-width: 100%
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+  .g-client-list img {
+    display: block;
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    transform: translateY(-50%)
+  }
+}
+
+.g-client-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  max-width: 15%;
+  height: 75px;
+  width: 100%;
+  margin-top: 45px;
+  padding: 0 10px
+}
+
+@media (max-width: 850px) {
+
+  .g-client-list li {
+    max-width: 25%
+  }
+}
+
+@media (max-width: 768px) {
+
+  .g-client-list li {
+    max-width: 50%
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+  .g-client-list li {
+    position: relative;
+    display: block
+  }
+}
+
+@media (max-width: 1080px) {
+
+  #index #offices li:first-child {
+    margin-top: 0
+  }
+}
+
+#index #offices li:first-child .office-details {
+  padding-left: 0
+}
+
+#index #offices li:last-child .office-details {
+  padding-right: 0
+}
+
+#index #offices .office-details {
+  margin-top: 60px
+}
+
+#index #offices .office-details .title, #index #offices .office-details .address, #index #offices .office-details .contact-wrap, #index #offices .office-details .jobs-link {
+  margin-top: 20px
+}
+
+#index #offices .office-details .title {
+  font-size: 45px;
+  line-height: 65px;
+  margin-bottom: 0;
+  text-transform: uppercase
+}
+
+#index #offices .office-details .g-label .text {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.27px
+}
+
+#index #offices .office-details .g-label .mdash-bar {
+  flex: 1 1 auto
+}
+
+#index #offices .office-details .address, #index #offices .office-details .contact-wrap {
+  font-size: 14px;
+  letter-spacing: 0.87px
+}
+
+#index #offices .office-details .address {
+  line-height: 1.57
+}
+
+#index #offices .office-details .contact-wrap {
+  line-height: 1.27
+}
+
+#index #offices .office-details .contact-wrap h4 {
+  margin: 0;
+  font-weight: bold
+}
+
+#index #offices .office-details .contact-wrap a {
+  font-size: 14px
+}
+
+#index #offices .office-details .jobs-link {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.27px
+}
+
+@media (max-width: 1080px) {
+
+  #index #offices .office-details .jobs-link {
+    margin-top: 65px
+  }
+}
+
+#index #offices .office-details .jobs-link a {
+  display: inline-block;
+  vertical-align: middle
+}
+
+#index #offices .office-details .jobs-link .g-right-arrow {
+  margin-left: 10px
+}
+
+#index #offices .office-details a {
+  color: #000;
+  text-decoration: none
+}
+
+#index #offices .office-details a:not(.g-strikethrough):hover {
+  color: #FFFFFF;
+  font-size: 14px
+}
+
+#index #client-list {
+  background: #1a1a1a;
+  padding: 100px 45px 0;
+  position: relative
+}
+
+@media (max-width: 768px) {
+
+  #index #client-list {
+    padding-left: 15px;
+    padding-right: 15px
+  }
+}
+

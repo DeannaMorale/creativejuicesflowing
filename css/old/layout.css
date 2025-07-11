@@ -1,0 +1,507 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    zooom: 1
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic
+}
+
+embed,
+object {
+    max-width: 100%
+}
+
+* {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1100px
+}
+
+.general-items,
+.row-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    clear: both
+}
+
+.general-items,
+.row-fluid .row-fluid {
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    margin: 0 -20px
+}
+
+.general-items [class*=span],
+.one_fifth,
+.row [class*=span],
+.row-fluid [class*=span] {
+    float: left;
+    padding: 0 20px;
+    position: relative
+}
+
+.row-fluid .span12,
+.row-fluid.columns-1 [class*=span] {
+    padding-bottom: 50px!important
+}
+
+.row-fluid .span12:last-child,
+.row-fluid.columns-1 [class*=span]:last-child {
+    padding-bottom: 0!important
+}
+
+.row-fluid.element-padding-no {
+    margin: 0
+}
+
+.row-fluid.element-padding-no [class*=span],
+.row.element-padding-no [class*=span] {
+    padding: 0
+}
+
+.row-fluid.element-padding-large,
+.row.element-padding-large {
+    margin: 0 -25px
+}
+
+.row-fluid.element-padding-large [class*=span],
+.row.element-padding-large [class*=span] {
+    padding: 0 25px
+}
+
+.row-fluid.element-padding-small,
+.row.element-padding-small {
+    margin: 0 -10px
+}
+
+.row-fluid.element-padding-small [class*=span],
+.row.element-padding-small [class*=span] {
+    padding: 0 8px 16px
+}
+
+.row-fluid.element-padding-narrow,
+.row.element-padding-narrow {
+    margin: 0 -5px
+}
+
+.row-fluid.element-padding-narrow [class*=span],
+.row.element-padding-narrow [class*=span] {
+    padding: 0 5px 10px
+}
+
+.row-fluid.style2.element-padding-no [class*=span] .inner-content {
+    padding: 5px
+}
+
+.row-fluid.style2.element-padding-large [class*=span] .inner-content {
+    padding: 35px 40px
+}
+
+.row-fluid.style2.element-padding-narrow [class*=span] .inner-content {
+    padding: 5px
+}
+
+.row-fluid.style2.element-padding-small [class*=span] .inner-content {
+    padding: 10px
+}
+
+.general-items:after,
+.general-items:before,
+.row-fluid:after,
+.row-fluid:before,
+.row:after,
+.row:before {
+    display: table;
+    line-height: 0;
+    content: ""
+}
+
+.general-items:after,
+.row-fluid:after,
+.row:after {
+    clear: both
+}
+
+.general-items .span1,
+.row-fluid .span1,
+.row-fluid.columns-12 .span,
+.row.columns-12 [class*=span] {
+    width: 8.333%
+}
+
+.general-items.columns-6 [class*=span],
+.row-fluid .span2,
+.row-fluid.columns-6 .span,
+.row.columns-6 [class*=span] {
+    width: 16.667%
+}
+
+.general-items.columns-4 [class*=span],
+.row-fluid .span3,
+.row-fluid.columns-4 .span,
+.row.columns-4 [class*=span] {
+    width: 25%
+}
+
+.general-items.columns-3 [class*=span],
+.row-fluid .span4,
+.row-fluid.columns-3 .span,
+.row.columns-3 [class*=span] {
+    width: 33.333%
+}
+
+.general-items .span5,
+.row-fluid .span5 {
+    width: 41.667%
+}
+
+.general-items.columns-2 [class*=span],
+.row-fluid .span6,
+.row-fluid.columns-2 .span,
+.row.columns-2 [class*=span] {
+    width: 50%
+}
+
+.general-items .span7,
+.row-fluid .span7 {
+    width: 58.333%
+}
+
+.general-items .span8,
+.row-fluid .span8 {
+    width: 66.667%
+}
+
+.general-items .span9,
+.row-fluid .span9 {
+    width: 75%
+}
+
+.general-items .span10,
+.row-fluid .span10 {
+    width: 83.333%
+}
+
+.general-items .span11,
+.row-fluid .span11 {
+    width: 91.667%
+}
+
+.general-items .span12,
+.row-fluid .span12 {
+    width: 100%
+}
+
+.general-items.columns-5 [class*=span],
+.row-fluid .spanone_fifth,
+.row-fluid.columns-5 .span,
+.row.columns-5 [class*=span] {
+    width: 20%
+}
+
+.row-fluid.bottom-margin-yes,
+.row-fluid.style-2.bottom-margin-yes,
+.row-fluid.style-3.bottom-margin-yes {
+    margin-bottom: 50px
+}
+
+.row-fluid .span2:nth-child(6n+1),
+.row-fluid .span3:nth-child(4n+1),
+.row-fluid .span4:nth-child(3n+1),
+.row-fluid .span6:nth-child(2n+1),
+.row-fluid .spanone_fifth:nth-child(5n+1),
+.row-fluid.columns-2 .span:nth-child(2n+1),
+.row-fluid.columns-3 .span:nth-child(3n+1),
+.row-fluid.columns-4 .span:nth-child(4n+1),
+.row-fluid.columns-5 .span:nth-child(5n+1),
+.row-fluid.columns-6 .span:nth-child(6n+1) {
+    clear: both
+}
+
+.general-items.style2,
+.row-fluid.style2,
+.row.style2 {
+    margin: 0 -2px
+}
+
+.general-items [class*=span],
+.row-fluid.style2 [class*=span],
+.row.style2 [class*=span] {
+    padding: 0!important;
+    position: relative
+}
+
+.general-items.style2 [class*=span] .inner-content,
+.row-fluid.style2 [class*=span] .inner-content,
+.row.style2 [class*=span] .inner-content {
+    padding: 30px
+}
+
+.row.style2 [class*=span]:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 90%;
+    width: 1px;
+    right: -1px;
+    top: 5%;
+    background: #e8e8e8
+}
+
+.general-items.style2 .not-right-columns:before,
+.row-fluid.style2 .not-right-columns:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 90%;
+    width: 1px;
+    right: -1px;
+    top: 5%;
+    background: #ddd;
+    background: -webkit-linear-gradient(top, rgba(248, 248, 248, 0) 0, #ddd 70px);
+    background: -moz-linear-gradient(top, rgba(248, 248, 248, 0) 0, #ddd 70px);
+    background: -o-linear-gradient(top, rgba(248, 248, 248, 0) 0, #ddd 70px);
+    background: linear-gradient(top, rgba(248, 248, 248, 0) 0, #ddd 70px)
+}
+
+.general-items.style2 .bottom-columns:before,
+.row-fluid.style2 .bottom-columns:before {
+    background: -webkit-linear-gradient(bottom, rgba(248, 248, 248, 0) 0, #ddd 70px);
+    background: -moz-linear-gradient(bottom, rgba(248, 248, 248, 0) 0, #ddd 70px);
+    background: -o-linear-gradient(bottom, rgba(248, 248, 248, 0) 0, #ddd 70px);
+    background: linear-gradient(bottom, rgba(248, 248, 248, 0) 0, #ddd 70px)
+}
+
+.general-items.style2 .top-columns.bottom-columns:before,
+.row-fluid.style2 .top-columns.bottom-columns:before {
+    background: -moz-linear-gradient(top, rgba(221, 221, 221, 0) 0, rgba(221, 221, 221, 1) 15%, rgba(221, 221, 221, 1) 85%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(221, 221, 221, 0)), color-stop(15%, rgba(221, 221, 221, 1)), color-stop(85%, rgba(221, 221, 221, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(top, rgba(221, 221, 221, 0) 0, rgba(221, 221, 221, 1) 15%, rgba(221, 221, 221, 1) 85%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(top, rgba(221, 221, 221, 0) 0, rgba(221, 221, 221, 1) 15%, rgba(221, 221, 221, 1) 85%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(top, rgba(221, 221, 221, 0) 0, rgba(221, 221, 221, 1) 15%, rgba(221, 221, 221, 1) 85%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, rgba(221, 221, 221, 0) 0, rgba(221, 221, 221, 1) 15%, rgba(221, 221, 221, 1) 85%, rgba(255, 255, 255, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00dddddd', endColorstr='#00ffffff', GradientType=0)
+}
+
+.general-items.style2 .not-bottom-columns:after,
+.row-fluid.style2 .not-bottom-columns:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 90%;
+    height: 1px;
+    left: 5%;
+    bottom: -1px;
+    background: #ddd
+}
+
+.general-items.style2 .left-columns:after,
+.row-fluid.style2 .left-columns:after {
+    -pie-background: linear-gradient(left, rgba(248, 248, 248, 0) 0, #ddd 70px);
+    background: linear-gradient(left, rgba(248, 248, 248, 0) 0, #ddd 70px)
+}
+
+.general-items.style2 .right-columns:after,
+.row-fluid.style2 .right-columns:after {
+    -pie-background: linear-gradient(right, rgba(248, 248, 248, 0) 0, #ddd 70px);
+    background: linear-gradient(right, rgba(248, 248, 248, 0) 0, #ddd 70px)
+}
+
+.row-fluid.style3.background-radius-yes [class*=span]>.inner-content,
+.row.style3.background-radius-yes [class*=span]>.inner-content {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px
+}
+
+.row-fluid.style3.background-radius-yes.background-radius-full [class*=span]>.inner-content,
+.row.style3.background-radius-yes.background-radius-full [class*=span]>.inner-content {
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    border-radius: 9999px
+}
+
+.row-fluid.style3.background-shadow-yes [class*=span]>.inner-content,
+.row.style3.background-shadow-yes [class*=span]>.inner-content {
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .05);
+    -ms-box-shadow: 0 2px 2px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .05)
+}
+
+.row-fluid.style3>[class*=span]>.inner-content,
+.row.style3>[class*=span]>.inner-content {
+    padding: 25px;
+    border: 1px solid transparent;
+    -webkit-transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out, border-color .3s ease-in-out
+}
+
+.row-fluid.style3.element-inner-vertical-padding-narrow [class*=span]>.inner-content,
+.row.style3.element-inner-vertical-padding-narrow [class*=span]>.inner-content {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.row-fluid.style3.element-inner-horizental-padding-narrow [class*=span]>.inner-content,
+.row.style3.element-inner-horizental-padding-narrow [class*=span]>.inner-content {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.row-fluid.style3.element-inner-vertical-padding-large [class*=span]>.inner-content,
+.row.style3.element-inner-vertical-padding-large [class*=span]>.inner-content {
+    padding-top: 35px;
+    padding-bottom: 35px
+}
+
+.row-fluid.style3.element-inner-horizental-padding-large [class*=span]>.inner-content,
+.row.style3.element-inner-horizental-padding-large [class*=span]>.inner-content {
+    padding-left: 35px;
+    padding-right: 35px
+}
